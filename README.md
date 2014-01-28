@@ -21,6 +21,10 @@ t.angle_of_reach 100, 100 #=> 2.8120065895999025 (in degrees)
 
 Note, if a velocity is supplied which is too slow for the projectile to _ever_ reach the target, a RuntimeError will be thrown.
 
-# Gravity
+## Gravity
 
 It should be noted that gravity is hard-coded in meters/s^2 (i.e. 9.8).  Thus the units of measure for all parameters should be meters.
+
+## Shouts
+
+Trajectory was developed at Starbucks by [Gideon Reece](http://github.com/neodig) and [Joel Helbling](http://github.com/joelhelbling).  No clay pidgeons were harmed in the making of this software.
