@@ -3,7 +3,7 @@ class Trajectory
   DEGREES_PER_RADIAN = 57.2957795
 
   def vertical_drop(distance_to_target, velocity)
-    time = distance_to_target/velocity
+    time = distance_to_target / velocity.to_f
     ( GRAVITY * time**2 ) / 2
   end
 
